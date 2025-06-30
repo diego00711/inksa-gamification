@@ -1,0 +1,36 @@
+{
+  "name": "inksa-gamification",
+  "version": "1.0.0",
+  "description": "Sistema de Gamificação para Inksa Delivery - APIs de pontos, níveis, distintivos, desafios e rankings",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Build completed'",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "gamification",
+    "inksa",
+    "delivery",
+    "points",
+    "badges",
+    "challenges",
+    "rankings",
+    "api"
+  ],
+  "author": "Inksa Delivery Team",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
